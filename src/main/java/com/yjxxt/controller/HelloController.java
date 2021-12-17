@@ -10,6 +10,6 @@ public class HelloController {
     public ModelAndView hello(){
         ModelAndView mv=new ModelAndView();
         mv.addObject("hello", "hello spring mvc");
-        mv.setViewName("hello"); return mv;
+        klkmv.setViewName("hello"); return mv;
     }
 }
